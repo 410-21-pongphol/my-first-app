@@ -4,6 +4,14 @@ st.title("🥩 แอปพลิเคชั่นคำนวณราคา�
 
 people = st.number_input("กรอกจำนวนลูกค้า (ท่าน):", min_value=0, value=1, step=1)
 
+price_per_person = 299
+
+price_per_person = 499
+
+price_per_person = 219
+
+price_per_person = 219
+
 price_per_person = 219
 
 total_price = people * price_per_person
