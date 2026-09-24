@@ -7,8 +7,8 @@ st.subheader("🛒 เลือกรายการอาหารและจ�
 set_eim = st.number_input("1. เซ็ตกินเอาอิ่ม (299 ฿):", min_value=0, value=0, step=1)
 set_juk = st.number_input("2. เซ็ตกินเอาจุก (499 ฿):", min_value=0, value=0, step=1)
 set_tai = st.number_input("3. เซ็ตกินเอาตาย (699 ฿):", min_value=0, value=0, step=1)
-set_classic = st.number_input("4. เซ็ตบุฟเฟต์ Classic (169 ฿/ท่าน):", min_value=0, value=0, step=1)
-set_premium = st.number_input("5. เซ็ตบุฟเฟต์ Premium (239 ฿/ท่าน):", min_value=0, value=0, step=1)
+set_classic = st.number_input("4. เซ็ตบุฟเฟต์ Classic (169 ฿):", min_value=0, value=0, step=1)
+set_premium = st.number_input("5. เซ็ตบุฟเฟต์ Premium (239 ฿):", min_value=0, value=0, step=1)
 
 people_count = st.number_input("👥 จำนวนลูกค้าที่มาทาน (คน):", min_value=1, value=1, step=1)
 
